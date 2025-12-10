@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/gold-encash/", // ✅ repo name (VERY IMPORTANT)
+  base: "/", // ✅ custom domain MUST use "/"
 });
