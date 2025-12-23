@@ -22,7 +22,6 @@ export default function AboutPage() {
 
       {/* Details Grid */}
       <div className="p-4 grid grid-cols-1 sm:grid-cols-[150px_1fr] md:grid-cols-[20%_1fr] gap-x-6">
-
         {/* CIN */}
         <div className="col-span-1 sm:col-span-2 grid grid-cols-subgrid border-t border-[#D4AF37] py-5">
           <p className="text-[#D4AF37] text-sm font-semibold">CIN</p>
@@ -31,7 +30,9 @@ export default function AboutPage() {
 
         {/* Registered Office */}
         <div className="col-span-1 sm:col-span-2 grid grid-cols-subgrid border-t border-[#D4AF37] py-5">
-          <p className="text-[#D4AF37] text-sm font-semibold">Registered Office</p>
+          <p className="text-[#D4AF37] text-sm font-semibold">
+            Registered Office
+          </p>
           <p className="text-white text-sm">
             D-44, KRISHAN VIHAR, DELHI-110086 India
           </p>
@@ -40,19 +41,17 @@ export default function AboutPage() {
         {/* Directors */}
         <div className="col-span-1 sm:col-span-2 grid grid-cols-subgrid border-t border-[#D4AF37] py-5">
           <p className="text-[#D4AF37] text-sm font-semibold">Directors</p>
-          <p className="text-white text-sm">
-            Vivek Kumar Yadav
-          </p>
+          <p className="text-white text-sm">Vivek Kumar Yadav</p>
         </div>
 
         {/* Email */}
         <div className="col-span-1 sm:col-span-2 grid grid-cols-subgrid border-t border-[#D4AF37] py-5">
           <p className="text-[#D4AF37] text-sm font-semibold">Email</p>
           <a
-            href="mailto:info@gold-encash.in"
+            href="mailto:info@goldencash.in"
             className="text-white hover:text-[#D4AF37] hover:underline text-sm transition"
           >
-            info@gold-encash.in
+            info@goldencash.in
           </a>
         </div>
       </div>

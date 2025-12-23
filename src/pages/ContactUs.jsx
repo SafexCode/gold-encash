@@ -84,9 +84,9 @@ export default function GoldEncash() {
               </div>
               <p className="text-gray-700">
                 <a
-                  href="mailto:sanjay.y@kissandhan.com"
+                  href="mailto:info@goldencash.in"
                   className="text-yellow-600 font-medium hover:text-yellow-700">
-                  sanjay.y@kissandhan.com
+                  info@goldencash.in
                 </a>
               </p>
             </div>

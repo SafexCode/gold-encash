@@ -18,7 +18,7 @@ const TermsConditions = () => {
         {/* Basic Info */}
         <div className="mb-8 text-gray-700 leading-relaxed">
           <p>
-            <span className="font-semibold">Website:</span> www.gold-encash.in
+            <span className="font-semibold">Website:</span> www.goldencash.in
           </p>
           <p>
             <span className="font-semibold">Brand:</span> Gold-Encash
